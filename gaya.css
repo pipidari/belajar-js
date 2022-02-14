@@ -1,0 +1,137 @@
+body {
+          background-color: #eaeaea;
+          font: normal 14px/24px Arial, Helvetica, sans-serif;
+          background-image: url(image/moroccan-flower.png);
+          color: #333
+}
+
+.container {
+          width: 800px;
+          margin: auto;
+          background-color: white;
+}
+
+.header {
+          padding: 20px;
+}
+
+.header .judul {
+          font-size: 35px;
+          font-weight: bold;
+}
+
+.header ul li {
+          display: inline-block;
+          margin-right: 15px;
+}
+
+.header a {
+          text-decoration: none;
+          color: salmon;
+}
+
+.header a:hover {
+          background-color: lightskyblue;
+          color: white;
+}
+
+.hero {
+          height: 300px;
+          background-image: url(image/hero.png);
+          background-size: cover;
+          background-position: 0 -200px;
+          border-top: 5px dashed lightcoral;
+          border-bottom: 3px solid lightseagreen;
+}
+
+.content {
+          padding: 20px;
+}
+
+.content h2 {
+          font-size: 25px;
+          font-weight: bold;
+}
+
+.content .penulis {
+          font-size: 15px;
+          margin-top: -15px;
+}
+
+.content .penulis a {
+          text-decoration: none;
+          color: salmon;
+}
+
+.content p {
+          margin-bottom: 20px;
+          font-size: 15px;
+          text-align: justify;
+}
+
+.footer {
+          background-color: black;
+
+}
+
+.footer .tulisan {
+          color: white;
+          text-align: center;
+          padding: 15px;
+}
+
+.tabel {
+          padding: 20px
+}
+
+.tabel table {
+          width: 400px;
+          background-color: salmon;
+          text-align: center;
+}
+
+table tr {
+          background-color: lightskyblue;
+}
+
+table tr th {
+          background-color: aqua;
+}
+
+.tombol {
+          padding: 20px;
+}
+
+button:hover {
+          background-color: blue;
+          color: wheat;
+}
+
+.container {
+          padding: 20px;
+}
+
+.group {
+          position: relative;
+          margin-bottom: 45px;
+          margin-top: 100px;
+}
+
+input {
+          font-size: 18px;
+          padding: 10px 10px 10px 5px;
+          display: block;
+          width: 300px;
+          border: none;
+          border-bottom: 1px solid #757577;
+}
+
+label {
+          color: #999;
+          font-size: 18px;
+          font-weight: normal;
+          position: absolute;
+          pointer-events: none;
+          left: 5px;
+          top: 10px;
+}
