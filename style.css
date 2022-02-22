@@ -1,0 +1,164 @@
+* {
+          margin: 0;
+          padding: 0;
+}
+
+body {
+          font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+          width: 1150px;
+          margin: auto;
+}
+
+.menu ul li {
+          display: inline;
+          margin-right: 25px;
+          font-weight: bold;
+}
+
+.menu {
+          margin-top: 20px;
+          display: flex;
+          justify-content: end;
+}
+
+.hero {
+          display: flex;
+          justify-content: space-around;
+          margin-top: 50px;
+}
+
+.hero-text {
+          width: 500px;
+          line-height: normal;
+}
+
+.hero-image img {
+          width: 200px;
+          height: 200px;
+}
+
+.hero-text button {
+          background-color: brown;
+          border: none;
+          padding: 10px;
+          color: white;
+          border-radius: 7px;
+          margin-right: 20px;
+}
+
+.post {
+          background-color: #EDF7FA;
+          padding: 20px 110px;
+          margin-top: 40px;
+}
+
+.recent-post {
+          display: flex;
+          justify-content: space-between;
+}
+
+.recent-post h3 {
+          font-size: 20px;
+          font-weight: 300;
+}
+
+.recent-post a {
+          text-decoration: none;
+          color: #00A8CC;
+}
+
+.recent-post a:hover {
+          background-color: white;
+          color:red
+}          
+
+.post-content {
+          display: flex;
+          gap: 15px;
+}
+
+.post-content-details {
+          background-color: white;
+          padding: 15px 10px;
+}
+
+.post-content-details h2 {
+          margin-bottom: 15px;
+}
+
+.post-content-details label, .post-content-details p {
+          font-size: 18px;
+          margin-top: 15px;
+}
+
+.featured-works {
+          padding: 20px 110px;
+          font-size: 20px;
+}
+
+.featured-works h3 {
+          font-weight: 300;
+}
+
+.featured {
+          display: flex;
+          gap: 40px;
+          margin-top: 40px;
+          margin-bottom: 30px;
+}
+
+.works-image img {
+          width: 246px;
+          height: 180px;
+          border-style: double;
+          border-radius: 10px;
+}
+
+.featured-text h2 {
+          font-size: 25px;
+          margin-bottom: 15px;
+}
+
+.featured-text a {
+          text-decoration: none;
+}
+
+.featured-text a:hover {
+          color: blue;
+          background-color: aquamarine;
+          transition-delay: 0.3s;
+}
+
+.featured-text label {
+          background-color: black;
+          color: white;
+          padding: 5px;
+          border-radius: 7px;
+          font-size: 14px;
+          margin-right: 20px;
+}
+
+.featured-text p {
+          margin-top: 20px;
+          text-align: justify;
+}
+
+.footer {
+          margin-top: 50px;
+}
+
+.footer-image, .footer-text {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 15px;
+
+}
+
+.footer-image img {
+          width: 30px;
+          height: 30px;
+          margin-right: 20px;
+}
