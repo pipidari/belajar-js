@@ -162,3 +162,45 @@ body {
           height: 30px;
           margin-right: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+          .container {
+                   width: 100%;
+          }
+          .hero {
+                    display: flex;
+                    flex-direction: column-reverse;
+          }
+
+          .hero-image {
+                    display: flex;
+                    justify-content: center;
+          }
+          .hero-text {
+                    text-align: center;
+                    width: auto;
+                    margin-top: 30px;
+          }
+          .post {
+                    padding: 15px 15px;
+          }
+          .post-content {
+                    display: flex;
+                    flex-direction: column;
+          }
+          .featured-works {
+                    padding: 15px 15px;
+          }
+        .featured {
+                    display: flex;
+                    flex-direction: column;
+        }
+        .works-image {
+                  display: flex;
+                  justify-content: center;
+        }
+        .menu {
+                  display: flex;
+                  justify-content: center;
+        }
+}
